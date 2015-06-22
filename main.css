@@ -5,3 +5,43 @@ body *{
 .box{
 	display: inline-block;
 }
+
+p{
+	background-color: #99FF66;
+	font-weight: bold;
+	width: 50%;
+	height: 30px;
+	border-radius: 3px;
+	color: purple;
+	box-shadow: 5px 5px 5px #888888;
+	text-indent: 10px;
+}
+
+.output{
+	background: black;
+	color: lime;
+	padding: 0 10px;
+	text-align: right;
+	font-size: 24px;
+	height: 80px;
+	border-radius: 6px;
+
+}
+
+h1{
+	background: linear-gradient(#66FF33, #33801A);
+	height: 60px;
+	font-weight: bold;
+	border-radius: 6px;
+
+}
+
+.col-md-9{
+	background-color: purple;
+	height: 53%;
+	box-shadow: 5px 5px 5px #888888;
+}
+.container{
+	background-color: #FFCCFF;
+}
+
