@@ -10,38 +10,38 @@
 	<div class="container" ng-controller="myCtrl">
 		<div class="row">
 			<div class="col-md-9 col-sm-12 col-xs-12">
-				<h1>Yuliya's Calculator</h1>
+				<h1>Yuliya's Powerful Angular Calculator</h1>
 
 				<div class ="output" name="output">{{output}}<br>{{operationToken}}</div>  <!-- the output box, where 0 is -->
 				<br>
 				<!-- <p>{{operationToken}}</p> -->
 
 				<div class="row1">
-					<button class="col-md-3 col-sm-3 btn btn-default" ng-click='updateOutput(7)'>7</button>
-					<button class="col-md-3 col-sm-3 btn btn-default" ng-click='updateOutput(8)'>8</button>
-					<button class="col-md-3 col-sm-3 btn btn-default" ng-click='updateOutput(9)'>9</button>
-					<button class="col-md-3 col-sm-3 btn btn-success" ng-click='add()'>+</button>
+					<button class="col-md-3 col-sm-3 btn btn-default" id="sevenbutton" ng-click='updateOutput(7)'>7</button>
+					<button class="col-md-3 col-sm-3 btn btn-default" id="eightbutton" ng-click='updateOutput(8)'>8</button>
+					<button class="col-md-3 col-sm-3 btn btn-default" id="ninebutton" ng-click='updateOutput(9)'>9</button>
+					<button class="col-md-3 col-sm-3 btn btn-success" id="addbutton" ng-click='add()'>+</button>
 
                 <br></br>
 
-					<button class="col-md-3 col-sm-3 btn btn-default" ng-click='updateOutput(4)'>4</button>
-					<button class="col-md-3 col-sm-3 btn btn-default" ng-click='updateOutput(5)'>5</button>
-					<button class="col-md-3 col-sm-3 btn btn-default" ng-click='updateOutput(6)'>6</button>
-					<button class="col-md-3 col-sm-3 btn btn-success" ng-click='subtract()'>-</button>
+					<button class="col-md-3 col-sm-3 btn btn-default" id="fourbutton" ng-click='updateOutput(4)'>4</button>
+					<button class="col-md-3 col-sm-3 btn btn-default" id="fivebutton" ng-click='updateOutput(5)'>5</button>
+					<button class="col-md-3 col-sm-3 btn btn-default" id="sixbutton" ng-click='updateOutput(6)'>6</button>
+					<button class="col-md-3 col-sm-3 btn btn-success" id="subtractbutton" ng-click='subtract()'>-</button>
 
                 <br></br>
 
-					<button class="col-md-3 col-sm-3 btn btn-default" ng-click='updateOutput(1)'>1</button>
-					<button class="col-md-3 col-sm-3 btn btn-default" ng-click='updateOutput(2)'>2</button>
-					<button class="col-md-3 col-sm-3 btn btn-default" ng-click='updateOutput(3)'>3</button>
-					<button class="col-md-3 col-sm-3 btn btn-success" ng-click='multiply()'>*</button>
+					<button class="col-md-3 col-sm-3 btn btn-default" id="onebutton" ng-click='updateOutput(1)'>1</button>
+					<button class="col-md-3 col-sm-3 btn btn-default" id="twobutton" ng-click='updateOutput(2)'>2</button>
+					<button class="col-md-3 col-sm-3 btn btn-default" id="threebutton" ng-click='updateOutput(3)'>3</button>
+					<button class="col-md-3 col-sm-3 btn btn-success" id="multiplybutton" ng-click='multiply()'>*</button>
 
 			    <br></br>
 
-					<button class="col-md-3 col-sm-3 btn btn-default" ng-click='updateOutput(0)'>0</button>
-					<button class="col-md-3 col-sm-3 btn btn-success" ng-click='divide()'>/</button>
-					<button class="col-md-3 col-sm-3 btn btn-danger" ng-click='clear()'>CLEAR</button>
-					<button class="col-md-3 col-sm-3 btn btn-success" ng-click='calculate()'>=</button>
+					<button class="col-md-3 col-sm-3 btn btn-default" id="zerobutton" ng-click='updateOutput(0)'>0</button>
+					<button class="col-md-3 col-sm-3 btn btn-success" id="dividebutton" ng-click='divide()'>/</button>
+					<button class="col-md-3 col-sm-3 btn btn-danger" id="clearbutton" ng-click='clear()'>CLEAR</button>
+					<button class="col-md-3 col-sm-3 btn btn-success" id="calculatebutton" ng-click='calculate()'>=</button>
 
                 <br></br>
 
